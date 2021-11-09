@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDCDC"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_marginTop="7sp"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:background="#B0C4DE"
+        android:text="on/off"
+        android:textSize="50sp"
+        android:fontFamily="monospace"
+        android:id="@+id/tvTime"/>
+    <TextView
+            android:layout_marginTop="30sp"
+            android:layout_width="90sp"
+            android:layout_height="60dp"
+            android:background="#B0C4DE"
+            android:gravity="center_horizontal"
+            android:text="6:46"
+            android:textSize="35sp"
+            android:fontFamily="monospace"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="time left for interval"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="7.5sp"
+                />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSkip"
+        />
+
+</LinearLayout>

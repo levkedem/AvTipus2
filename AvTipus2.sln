@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvTipus2", "AvTipus2.csproj", "{ADD53DF2-39CA-4A71-8FF8-DCC3157D04B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADD53DF2-39CA-4A71-8FF8-DCC3157D04B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD53DF2-39CA-4A71-8FF8-DCC3157D04B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD53DF2-39CA-4A71-8FF8-DCC3157D04B9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ADD53DF2-39CA-4A71-8FF8-DCC3157D04B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD53DF2-39CA-4A71-8FF8-DCC3157D04B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD53DF2-39CA-4A71-8FF8-DCC3157D04B9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A0222E0-6398-450B-BED5-9C4B8D10FF4B}
+	EndGlobalSection
+EndGlobal
