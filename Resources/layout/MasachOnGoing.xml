@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#DCDCDC"
+    android:theme="@android:style/Theme.Holo.Light.NoActionBar"
     android:gravity="center_horizontal">
 
     <TextView
@@ -75,7 +76,7 @@
 
         <TextView
             android:layout_marginTop="7sp"
-            android:layout_marginRight="30dp"
+            android:layout_marginRight="0dp"
             android:layout_width="90sp"
             android:layout_height="60dp"
             android:background="#B0C4DE"
