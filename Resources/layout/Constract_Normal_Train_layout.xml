@@ -3,8 +3,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DCDCDC"
->
+    android:background="#DCDCDC">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -34,6 +34,12 @@
                 android:checked="false"
                 android:text="cool down"
                 android:id="@+id/CHcoolDown"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="10 seconds between intervals"
+                android:id="@+id/CBbetweenint"/>
 
 
 
@@ -44,37 +50,7 @@
                 android:text="part one:"
                 android:textSize="28sp"
                 />
-            <LinearLayout 
-    android:orientation="horizontal"
-    android:layout_width="match_parent"
-    android:layout_height="60dp"
-    android:gravity="center_vertical"
-                android:layout_margin="5dp"
-    
-    android:background="#B0C4DE">
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:id="@+id/ivRunningSpeed"
-        android:background="@drawable/slow"/>
-    
-    <TextView
-        android:layout_width="210dp"
-        android:layout_height="wrap_content"
-        android:text="3 min"
-        android:textSize="25dp"
-android:layout_marginLeft="20dp"        android:textColor="#000000"
-        
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="slow"
-        android:textSize="25dp"
-        android:textColor="#000000"
-        />
-
-</LinearLayout>
+            
             <ListView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -84,7 +60,7 @@ android:layout_marginLeft="20dp"        android:textColor="#000000"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:id="@+id/BtAddInterval1"
-                android:text="make interval"/>
+                android:text="add"/>
             <SeekBar
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -100,38 +76,7 @@ android:layout_marginLeft="20dp"        android:textColor="#000000"
                 android:textSize="28sp"
                 android:id="@+id/textView2" 
                 />
-            <LinearLayout 
-    android:orientation="horizontal"
-    android:layout_width="match_parent"
-    android:layout_height="60dp"
-    android:gravity="center_vertical"
-                android:layout_margin="5dp"
-    
-    android:background="#B0C4DE">
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:id="@+id/ivRunningSpeed2"
-        android:background="@drawable/fast"/>
-    
-    <TextView
-        android:layout_width="210dp"
-        android:layout_height="wrap_content"
-        android:text="7 min"
-        android:textSize="25dp"
-        android:layout_marginLeft="20dp"
-        android:textColor="#000000"
-        
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="fast"
-        android:textSize="25dp"
-        android:textColor="#000000"
-        />
-
-</LinearLayout>
+            
             <ListView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -141,7 +86,7 @@ android:layout_marginLeft="20dp"        android:textColor="#000000"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:id="@+id/BtAddInterval2"
-                android:text="make interval"/>
+                android:text="add"/>
             <SeekBar
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -166,7 +111,7 @@ android:layout_marginLeft="20dp"        android:textColor="#000000"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:id="@+id/BtAddInterval3"
-                android:text="make interval"/>
+                android:text="add"/>
             <SeekBar
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -192,6 +137,5 @@ android:layout_marginLeft="20dp"        android:textColor="#000000"
         </LinearLayout>
 
     </ScrollView>
-    
 
 </LinearLayout>

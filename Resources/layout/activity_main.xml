@@ -7,6 +7,7 @@
     android:background="#DCDCDC"
     android:gravity="center_horizontal"
     android:orientation="vertical"
+    
     android:theme="@android:style/Theme.Holo.Light.NoActionBar"
 >
     <TextView
@@ -19,6 +20,7 @@
         android:textSize="28sp"
         android:textColor="#000000"
         android:gravity="center_vertical"
+        
                 />
     <ImageView
         android:layout_width="match_parent"
@@ -34,6 +36,7 @@
         android:layout_height="100dp"
         android:id="@+id/btrunning"
         android:layout_weight="1"
+            android:fontFamily="monospace"
         android:text="running
             "/>
         <Button
@@ -41,13 +44,16 @@
         android:layout_height="100dp"
         android:id="@+id/btexe"
         android:layout_weight="1"
+            android:fontFamily="monospace"
         android:text="exercise
-            "/>
+            "
+            />
         <Button
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:id="@+id/btoldStaff"
         android:layout_weight="1"
+            android:fontFamily="monospace"
         android:text="recrnt workouts"/>
         </LinearLayout>
     
