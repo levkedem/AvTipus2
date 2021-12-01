@@ -16,7 +16,7 @@
     <TextView
         android:layout_width="210dp"
         android:layout_height="wrap_content"
-        android:text="duration/distance:"
+        android:text="length:"
         android:textSize="25dp"
         android:layout_marginLeft="20dp"
         android:textColor="#000000"
@@ -24,7 +24,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="type:"
+        android:text="pace:"
         android:textSize="25dp"
         android:textColor="#000000"
         />

@@ -52,7 +52,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:id="@+id/btoldStaff"
-        android:layout_weight="1"
+        android:layout_weight="1"            
             android:fontFamily="monospace"
         android:text="recrnt workouts"/>
         </LinearLayout>

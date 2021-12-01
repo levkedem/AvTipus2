@@ -22,13 +22,13 @@ namespace AvTipus2
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.MasachOnGoing);
+            SetContentView(Resource.Layout.Construct_WorkOut_Running);
             tvTime = (TextView)FindViewById(Resource.Id.tvTime);
 
 
-
+            //*
             Permission permission = ContextCompat.CheckSelfPermission(this, Manifest.Permission.AccessFineLocation);
-            if (permission == Permission.Granted)
+            /*if (permission == Permission.Granted)
             {
                 ex = new Exercise();
 
@@ -41,7 +41,8 @@ namespace AvTipus2
                 u1.Start();
             }
             else
-                tvTime.Text = "11:11";
+                tvTime.Text = "11:11";*/
+            
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {

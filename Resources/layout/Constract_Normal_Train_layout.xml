@@ -50,6 +50,38 @@
                 android:text="part one:"
                 android:textSize="28sp"
                 />
+            <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+                android:layout_margin="5dp"
+    android:gravity="center_vertical"
+    
+    android:background="#B0C4DE">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/ivRunningSpeed"
+        android:layout_marginRight="13dp"
+        android:background="@drawable/normalexicon"/>
+    
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="5 min"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pushups"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        />
+
+</LinearLayout>
             
             <ListView
                 android:layout_width="match_parent"
